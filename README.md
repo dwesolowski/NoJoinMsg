@@ -2,7 +2,7 @@
 
 Removes the default server join / leave messages.
 
-#### Supported Versions: 1.11+
+#### Supported Versions: 1.13+
 
 ## Installation
 
