@@ -1,5 +1,7 @@
 # NoJoinMsg - Plugin for Bukkit | Spigot
 
+[![Software License](http://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+
 Removes the default server join / leave messages.
 
 #### Supported Versions: 1.13+
