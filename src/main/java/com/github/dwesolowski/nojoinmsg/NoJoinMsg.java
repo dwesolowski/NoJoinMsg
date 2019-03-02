@@ -11,6 +11,7 @@ public class NoJoinMsg extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
+        registerMetrics();
     }
 
     @EventHandler
@@ -21,5 +22,9 @@ public class NoJoinMsg extends JavaPlugin implements Listener {
     @EventHandler
     public void onPlayerQuit(PlayerQuitEvent e) {
         e.setQuitMessage("");
+    }
+
+    private void registerMetrics() {
+        final MetricsLite metrics = new MetricsLite(this);
     }
 }
