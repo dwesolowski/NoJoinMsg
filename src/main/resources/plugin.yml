@@ -1,7 +1,4 @@
-name: ${name}
+name: NoJoinMsg
 version: ${version}
-description: ${description}
-author: ${author}
-website: ${url}
-
-main: ${mainClass}
+main: com.github.dwesolowski.nojoinmsg.NoJoinMsg
+api-version: 1.13
